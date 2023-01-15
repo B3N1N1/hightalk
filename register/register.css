@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(100deg, red, blue)
+}
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+.legend{
+    color: white;
+}
+fieldset{
+    border: 1px ;
+}
+legend{
+    text-align: center;
+}
+#user{
+    position: relative;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+}
+#pass{
+    position: relative;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+}
+#submit{
+    position: relative;
+    border-radius: 50px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    font-size:medium;
+    margin-bottom: 10px;
+    margin-left: 40%; 
+}
